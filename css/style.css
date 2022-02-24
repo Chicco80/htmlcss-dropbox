@@ -67,24 +67,34 @@ nav .logo img{
 }
 /* header */
 .jumbo{
-    margin-top:80px
+    margin-top:80px;
+    background-color:#B4D0E7 ;
+    
+}
+.jumbo .jumbo-title h1{
+    font-size: 60px;
+    
 }
 .jumbo-title{
-    width: 100%;
+    width: 60%;
     height: 150px;
     margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto;
 }
 .jumbo-description{
-    width: 50%;
+    width: 40%;
     height: 400px;
     background-color: aqua;
     float: left;
+    margin-left: 180px;
 }
 .jumbo-img{
-    width: 50%;
+    width: 40%;
     height: 400px;
     background-color: rgb(9, 97, 97);
     float: right;
+    margin-right: 180px;
 }
 /* main */
 .title-businnes{
