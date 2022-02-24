@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="styslesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     <title>Dropbox</title>
   </head>
   <body>
@@ -16,7 +16,7 @@
       <!-- barra navigazione -->
       <nav class="debug clearfix">
           <div class="logo left">
-              <img src="img/logo-small.png" alt="">
+              <a href=""><img src="img/logo-small.png" alt=""></a>
           </div>
           <ul class="left">
               <li><a href="#">Perche Dropbox?</a></li>
@@ -25,26 +25,35 @@
           </ul>
           <ul class="right">
             <li><a href="#">Supporto</a></li>
-            <li><a href="#">Contatta ufficio vendite</a></li>
+            <li><a href="#">Contatta</a></li>
+            <li><a href="#">Ufficio vendite</a></li>
             <li><a href="#">Accedi</a></li>
             <li><a class="button" href="#">Inizia</a></li>
         </ul>
 
       </nav>
       <!-- immagine e titolo -->
-      <div class="jumbo debug clearfix">
-        <div class="jumbo-title ">
+      <div class="jumbotron clearfix">
+        <div class="jumbotron-title ">
             <h1>Tutto cio che ti serve per il lavoro, in un unico posto</h1>
         </div>
-        <div class="jumbo-description debug">blaba</div>
-        <div class="jumbo-img">img</div>
+        <div class="jumbotron-description">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sunt hic recusandae dicta, sapiente sed a ex minus! Expedita in porro voluptatem odit maxime atque totam ex? Quisquam tempore asperiores recusandae itaque ipsum quasi voluptates.</p>     
+          <a class="button" href="#">Inizia la tua prova gratuita</a>
+          <p id="annulla">Annulla in qualsiasi momento</p>
+          <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+        <div class="jumbotron-img">
+        </div>
       </div>
     </header>
     <!-- inizio main -->
     <main>
-      <!-- settore sei colonne -->
-      <section class="container debug">
-        <div class="title-businnes debug">trova il</div>
+      <!-- trova il piano-->
+      <section class=" business container debug">
+        <div class="business-title debug">
+          <h2>Trova il piano Dropbox Businness che fa per te</h2>
+        </div>
         <div class="row debug clearfix">
           <div class="col debug">col 1</div>
           <div class="col debug">col 1</div>
