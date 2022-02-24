@@ -30,7 +30,39 @@ body{
 nav{
     width: 100%;
     height: 80px;
-}/* header */
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+    background-color: white;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 25px;
+
+}
+nav .logo img{
+    width: 200px;
+    vertical-align: middle;
+    padding: 20px;
+    
+}
+/* header */
+.jumbo{
+    margin-top:80px
+}
 .jumbo-title{
     width: 100%;
     height: 150px;
@@ -141,5 +173,37 @@ h2{
     height: 500px;
     background-color:#F5F5F5 ;
 }
+.world{
+    background-color:#D5001F ;
+}
+.lonely{
+    background-color:#0D2481 ;
+}
+.h-corporation{
+    background-color: #B4D0E7;
+}
+.c-channel{
+    background-color:#FFD830 ;
+}
+/* zona azzurra */
+#background{
+    height: 300px;
+    background-color: #B4D0E7;
+}
+/* domande frequenti */
+
+/* footer */
+
+footer{
+    background-color:#000000 ;
+    color: white;
+
+}
+.clm{
+    width: 20%;
+    height: 300px;
+    border-color: #F5F5F5;
+}
+
 
 
