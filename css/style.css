@@ -19,7 +19,127 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+/* navbar */
 nav{
     width: 100%;
     height: 80px;
+}/* header */
+.jumbo-title{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
 }
+.jumbo-description{
+    width: 50%;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+}
+.jumbo-img{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(9, 97, 97);
+    float: right;
+}
+/* main */
+.title-businnes{
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    margin: 30px 0;
+}
+.row{
+    background-color: chartreuse;
+    
+}
+.row .col{
+    width: calc(100% / 3);
+    height: 400px;
+    background-color: red;
+    float: left;
+}
+/* inizio parte team */
+.team{
+    width: 100%;
+    height: 300px;
+}
+ .team-title{
+     width: 100%;
+     height: 40px;
+     margin-top: 30px;
+     background-color: aqua;
+
+}
+.enterprise{
+    height: 150px;
+    background-color: chocolate;
+}
+/* inizio parte foto */
+.foto{
+    width: 50%;
+    height: 300px;
+    background-color: cornflowerblue;
+    float: left;
+}
+.foto-description{
+    width: 50%;
+    height: 300px;
+    background-color: lime;
+    float: right;
+}
+
+/* inizio parte box*/
+
+h2{
+    width: 100%;
+    height: 40px;
+}
+.row-top .box{
+    width: calc(100% / 3);
+    height: 250px;
+    background-color: darkolivegreen;
+    float: left;
+}
+.title-bottom{
+    width: 50%;
+   height: 70px;
+    background-color: rgb(248, 8, 8);
+}
+/* sezione designit */
+.colonna{
+    width: 15%;
+    height: 500px;
+}
+
+ .square{
+    width: 100%;
+    height: 250px;
+
+} 
+.designit{
+    background-color:#A2D39B ;
+}
+.florida{
+    background-color:#0093CE ;
+}
+.asu{
+    background-color: #61082B;
+}
+.topps{
+    background-color: #FF1C1C;
+}
+/* sezione centrale */
+.big{
+    width: 40%;
+    height: 500px;
+    background-color:#F5F5F5 ;
+}
+
+
