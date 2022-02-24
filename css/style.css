@@ -26,6 +26,12 @@ body{
 .right{
     float: right;
 }
+
+.button{
+    background-color:#0061FF ;
+    color: white;
+    padding: 10px;
+}
 /* navbar */
 nav{
     width: 100%;
