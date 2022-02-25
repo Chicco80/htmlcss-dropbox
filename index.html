@@ -5,63 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="styslesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="styslesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <title>Dropbox</title>
   </head>
   <body>
     <header>
       <!-- barra navigazione -->
       <nav class="debug clearfix">
-          <div class="logo left">
-              <a href=""><img src="img/logo-small.png" alt=""></a>
-          </div>
-          <ul class="left">
-              <li><a href="#">Perche Dropbox?</a></li>
-              <li><a href="#">Funzioni</a></li>
-              <li><a href="#">Piani e prezzi</a></li>
-          </ul>
-          <ul class="right">
-            <li><a href="#">Supporto</a></li>
-            <li><a href="#">Contatta</a></li>
-            <li><a href="#">Ufficio vendite</a></li>
-            <li><a href="#">Accedi</a></li>
-            <li><a class="button" href="#">Inizia</a></li>
+        <div class="logo left">
+          <a href=""><img src="img/logo-small.png" alt="" /></a>
+        </div>
+        <ul class="left">
+          <li><a href="#">Perche Dropbox?</a></li>
+          <li><a href="#">Funzioni</a></li>
+          <li><a href="#">Piani e prezzi</a></li>
         </ul>
-
+        <ul class="right">
+          <li><a href="#">Supporto</a></li>
+          <li><a href="#">Contatta</a></li>
+          <li><a href="#">Ufficio vendite</a></li>
+          <li><a href="#">Accedi</a></li>
+          <li><a class="button" href="#">Inizia</a></li>
+        </ul>
       </nav>
       <!-- immagine e titolo -->
       <div class="jumbotron clearfix">
-        <div class="jumbotron-title ">
-            <h1>Tutto cio che ti serve per il lavoro, in un unico posto</h1>
+        <div class="jumbotron-title">
+          <h1>Tutto cio che ti serve per il lavoro, in un unico posto</h1>
         </div>
-        <div class="jumbotron-description">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sunt hic recusandae dicta, sapiente sed a ex minus! Expedita in porro voluptatem odit maxime atque totam ex? Quisquam tempore asperiores recusandae itaque ipsum quasi voluptates.</p>     
+        <div class="jumbotron-description debug">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sunt
+            hic recusandae dicta, sapiente sed a ex minus! Expedita in porro
+            voluptatem odit maxime atque totam ex? Quisquam tempore asperiores
+            recusandae itaque ipsum quasi voluptates.
+          </p>
           <a class="button" href="#">Inizia la tua prova gratuita</a>
           <p id="annulla">Annulla in qualsiasi momento</p>
           <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
         </div>
-        <div class="jumbotron-img">
+        <div class="jumbotron-img debug">
+          <img src="img/jumbo.png" alt="" />
         </div>
       </div>
     </header>
     <!-- inizio main -->
     <main>
       <!-- trova il piano-->
-      <section class=" business container debug">
-        <div class="business-title debug">
+      <section class="business container debug">
+        <div class="business-title">
           <h2>Trova il piano Dropbox Businness che fa per te</h2>
+          <div class="check">
+            <span>Fatturazione mensile</span>
+          </div>
+          <div class="check-no">
+            <span>Fatturazione annuale</span>
+          </div>
         </div>
         <div class="row debug clearfix">
-          <div class="col debug">col 1</div>
-          <div class="col debug">col 1</div>
-          <div class="col debug">col 1</div>
+          <div class="col-left debug left">
+            <h3 class="debug"><i class="fa-regular fa-user"></i> Singolo</h3>
+            <ul>
+              <li><h2>Professional</h2></li>
+              <li>19,99 &euro;</li>
+              <li>/mese</li>
+              <li><i class="fa-regular fa-user"></i> 1 utente</li>
+              <li><i class="fa-regular fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
+              <li><i class="fa-solid fa-pen"></i>Funzione di produttivit&aacute; premium e condivisione file semplice e sicura</li>
+              <li><a class="button" href=""></a>Prova gratis per 30 giorni</li>
+              <li><span class="under">oppure</span> <a href="#">acquista ora</a></li>
+              <li><h4>Punti salienti del piano</h4></li>
+              <li><i class="fa-solid fa-check"></i>Invia file fino a 100GB con Dropbox Transfert</li>
+              <li><i class="fa-solid fa-check"></i>Cartelle off line su dispositivi mobili</li>
+              <li><i class="fa-solid fa-check"></i>Pulizia remota dell'account</li>
+              <li><i class="fa-solid fa-check"></i>Assistenza prioritaria via email e chat</li>
+            </ul>
+          </div>
+         <div class="col-central debug left">col 1</div>
+         <div class="col-right debug right">col 1</div>
         </div>
 
-        <!-- settore team -->
-        <div class="team debug cl">
+         <!-- settore team -->
+         <div class="team debug cl">
           <div class="team-title debug">
             <i class="fa-solid fa-building"></i>
           </div>
@@ -136,6 +170,6 @@
       <div class="debug clm left"></div>
       <div class="debug clm left"></div>
       <div class="debug clm left"></div>
-    </footer>
+    </footer>  -->
   </body>
 </html>
