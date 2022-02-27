@@ -29,9 +29,8 @@ body {
 }
 
 .button {
-
   background-color: #0061ff;
-  border: 1px solid  #0061ff ;
+  border: 1px solid #0061ff;
   color: white;
   padding: 10px;
 }
@@ -67,7 +66,7 @@ nav .logo img {
 /* header */
 .jumbotron {
   width: 100%;
-  margin-top: 80px; 
+  margin-top: 80px;
   background-color: #b4d0e7;
   min-width: 1000px;
 }
@@ -213,23 +212,37 @@ nav .logo img {
 }
 
 /* inizio parte foto */
-.partner {
-  width: 80%;
-}
+
 .foto {
-  width: 50%;
-  height: 500px;
+  width: 100%;
+  height: 50vh;
 }
 
-.foto img {
+.foto .foto-img {
+  width: 50%;
+  height: 100%;
+}
+.foto-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top;
 }
 .foto-description {
-  width: 50%;
+  width: 30%;
   min-height: 500px;
+  padding: 30px 10px;
+}
+
+.foto-description p {
+  padding: 20px 0;
+}
+.foto-description a {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: white;
+  border-color: black;
+  color: black;
+  text-decoration: none;
 }
 
 /* inizio parte box*/
@@ -335,56 +348,66 @@ nav .logo img {
   background-color: #ffd830;
 }
 /* zona azzurra */
-#background {
-  height: 300px;
+.background {
+  width: 100%;
+  height: 30vh;
   background-color: #b4d0e7;
+  position: relative;
+}
+.container-background {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#background h2 {
+.container-background h2 {
   color: #61082b;
   font-size: 40px;
-  width: 40%;
-  padding: 50px;
-  margin-left: 50px;
-  margin-top: 70px;
+  width: 60%;
+  display: inline-block;
 }
 
-#background a {
-  margin-right: 50px;
+.container-background a {
   border: 1px solid white;
-  padding: 5px;
-  margin-top: 150px;
   background-color: white;
   color: black;
+  vertical-align: top;
+  margin-left: 50px;
   text-decoration: none;
+  display: inline-block;
+  padding: 5px;
 }
 
 /* domande frequenti */
-.questions{
-    height: 50vh;
-    
+.questions {
+  height: 50vh;
+
 }
 .questions h2 {
   margin-top: 30px;
   margin-bottom: 20px;
+  
 }
 .questions hr {
   color: gray;
   margin-bottom: 30px;
   margin-top: 30px;
 }
-.questions p{
-    padding: top 20px;
-    margin-top: 20px;
+.questions p {
+  padding: top 20px;
+  margin-top: 20px;
 }
 .icon{
+    width: 40%; 
     display: inline-block;
 }
 
-.questions i{
-    margin-top: 20px;
-    margin-right: 30px;
-    
+
+.questions i {
+  margin-top: 20px; 
+  margin-right: 10px;
 }
 /* footer */
 
@@ -399,18 +422,18 @@ footer {
   border-color: #f5f5f5;
   padding: 15px;
 }
-.clm h4{
-    padding-bottom: 15px;
-    font-size: 20px;
-}.clm li a{
-    color: white;
-    text-decoration: none;
-    
+.clm h4 {
+  padding-bottom: 15px;
+  font-size: 20px;
 }
-.clm li{
-    list-style-type: none;
-    padding-top: 10px;
+.clm li a {
+  color: white;
+  text-decoration: none;
 }
-.language{
-   margin-top: ;
+.clm li {
+  list-style-type: none;
+  padding-top: 10px;
+}
+.language {
+  margin-top: ;
 }
