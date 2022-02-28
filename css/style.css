@@ -35,6 +35,7 @@ body {
   padding: 10px;
   
 }
+
 /* navbar */
 nav {
    min-width: 100%;
@@ -433,10 +434,18 @@ nav .logo img {
 .questions p {
   padding: top 20px;
   margin-top: 20px;
+  position: relative;
 }
 .icon{
     width: 50%; 
     display: inline-block;
+}
+.risposta{
+    display: none;
+}
+.questions p:hover .risposta{
+    display: block;
+    cursor: pointer;
 }
 
 .questions i {
