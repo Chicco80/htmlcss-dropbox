@@ -33,7 +33,6 @@ body {
   border: 1px solid #0061ff;
   color: white;
   padding: 10px;
-  
 }
 
 /* navbar */
@@ -54,41 +53,36 @@ nav ul li {
   display: inline-block;
   line-height: 80px;
   position: relative;
-  
 }
-nav ul li:hover{
-    border-bottom: 2px solid gray;
+nav ul li:hover {
+  border-bottom: 2px solid gray;
 }
-nav ul li a:hover{
-    color:#d5001f
+nav ul li a:hover {
+  color: #d5001f;
 }
-
-/* menu nascosto */
-.menu-nascosto{
-    display: none;
-    float: none;
-    position: absolute;
-    background-color:white;
-    
-}
-nav ul:hover .menu-nascosto{
-    display: block;
-}
-.menu-nascosto ul{
-    float: none;
-}
-
 nav ul li a {
   text-decoration: none;
   color: black;
   font-size: 20px;
-  margin-right: 25px;
+  padding-right: 25px;
 }
 nav .logo img {
   width: 200px;
   vertical-align: middle;
   padding: 20px;
 }
+
+/* menu nascosto */
+.menu-nascosto {
+  display: none;
+  float: none;
+  position: absolute;
+  background-color: white;
+}
+nav ul:hover .menu-nascosto {
+  display: block;
+}
+
 /* header */
 .jumbotron {
   width: 100%;
@@ -99,7 +93,6 @@ nav .logo img {
 .jumbotron-title h1 {
   font-size: 65px;
   padding: 10px;
-
 }
 .jumbotron-title {
   width: 80%;
@@ -108,7 +101,7 @@ nav .logo img {
 }
 .jumbotron-description {
   max-width: 20%;
-  min-height: 25vh; 
+  min-height: 25vh;
   padding-left: 20px;
   padding-top: 80px;
   float: left;
@@ -166,24 +159,24 @@ nav .logo img {
   display: inline-block;
 }
 /* pallini */
-#yes{
-    width: 15px;
-    height: 15px;
-    border: 3px solid  #0061ff;
-    background-color:  white;
-    border-radius: 50%;
-    padding: 5px;
-    display: inline-block;
+#yes {
+  width: 15px;
+  height: 15px;
+  border: 3px solid #0061ff;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  display: inline-block;
 }
-#no{
-    width: 15px;
-    height: 15px;
-    border: 1px solid black;
-    background-color:  white;
-    border-radius: 50%;
-    padding: 5px;
-    display: inline-block; 
-    margin-left: 5px;
+#no {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  display: inline-block;
+  margin-left: 5px;
 }
 
 .row {
@@ -230,19 +223,20 @@ nav .logo img {
 .col-right ul li {
   list-style-type: none;
   padding: 20px;
-  
 }
- .fa-check{
-    color: #0061ff;
-    padding: 5px;
+.fa-check {
+  color: #0061ff;
+  padding: 5px;
+}
+.fa-pen {
+  margin-left: 0px;
 }
 
-.fa-pen li{
-    padding-left: 15px;
-}
-.
-.col-left, .col-central, .col-right, .button{
-    text-decoration: none;
+.col-left,
+.col-central,
+.col-right,
+.button {
+  text-decoration: none;
 }
 /* fine colonne */
 
@@ -350,7 +344,6 @@ nav .logo img {
   height: 25vh;
   object-fit: contain;
   padding: 30px;
-  
 }
 .designit {
   background-color: #a2d39b;
@@ -416,7 +409,7 @@ nav .logo img {
   position: relative;
 }
 .container-background {
-  width: 80%;
+  width: 60%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -426,7 +419,7 @@ nav .logo img {
 .container-background h2 {
   color: #61082b;
   font-size: 40px;
-  width: 60%;
+  width: 50%;
   display: inline-block;
 }
 
@@ -436,6 +429,7 @@ nav .logo img {
   color: black;
   vertical-align: top;
   margin-left: 50px;
+  margin-top: 5px;
   text-decoration: none;
   display: inline-block;
   padding: 5px;
@@ -444,12 +438,10 @@ nav .logo img {
 /* domande frequenti */
 .questions {
   height: 50vh;
-
 }
 .questions h2 {
   margin-top: 30px;
   margin-bottom: 20px;
-  
 }
 .questions hr {
   color: gray;
@@ -459,15 +451,17 @@ nav .logo img {
 .questions p {
   padding: top 20px;
   margin-top: 20px;
-  
 }
-.icon{
-    width: 50%; 
-    display: inline-block;
+.icon {
+  width: 50%;
+  display: inline-block;
+}
+.icon i {
+  margin-left: 10px;
 }
 
 .questions i {
-  margin-top: 20px; 
+  margin-top: 20px;
   margin-right: 10px;
 }
 /* footer */
@@ -481,7 +475,7 @@ footer {
 .clm {
   min-width: 20%;
   min-height: 30vh;
-  
+
   padding: 15px;
 }
 .clm h4 {
@@ -501,5 +495,4 @@ footer {
   margin-top: 40px;
   border-top: 1px solid white;
   padding-top: 30px;
-
 }
